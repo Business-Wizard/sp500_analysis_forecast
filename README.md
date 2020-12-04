@@ -68,6 +68,7 @@
 
 # PREDICTION:
 ![prediction](src/images/prediction.png)   
+![predict](src/images/predict.png)   
 * Upper & Lower Bounds of Fitted Parameters (7 year Rolling Perdictions - Trailing)
 * 95% Confidence Interval (shaded Section)
 * Forcast 6 months into future
