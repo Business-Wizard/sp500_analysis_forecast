@@ -35,11 +35,10 @@
 
 ![kernelPCA](src/images/kernelPCA.png)
  
-
+![kernelPCA_principalComponent_varWT](src/images/kernelPCA_principalComponent_varWT.png)
 
 ### Reconstruct Kernel-PCA vs SP500 Index (Price)
 ![kPCAvsSP](src/images/kPCAvsSP.png)  
-
 
 # Stationary Time Series Data
 * Price movements tend to drift towards some long term mean either upwards or downwards.
@@ -50,18 +49,43 @@
 ![differenced_nonStationary](src/images/differenced_nonStationary.png)
 ![seasonalDecomp](src/images/seasonalDecomp.png)      
 
+ ### Augmented Dicker-Fuller Test
+ ##### Null = time series contains unit root and is non-stationary
+ * p-value > 0.05 = reject null (nonstationary)
+ ##### Alternative - time series does not contain unit root and is stationary
+ * p-value ≤ 0.05 = fail to reject null (stationary)
+![adfTests](src/images/adfTests.png) 
+
 
 
 # ARIMA & SARIMAX
 ### Fit by Grid Search to find lowest AIC
 ### Fit data to Model
 
-![terminal](src/images/terminal.png) 
+![SARIMAX_assumptions](src/images/SARIMAX_assumptions.png) 
 
 ![MODELASSUMPTIONS](src/images/MODELASSUMPTIONS.png)   
 
 # PREDICTION:
 ![prediction](src/images/prediction.png)   
+* Upper & Lower Bounds of Fitted Parameters (7 year Rolling Perdictions - Trailing)
+* 95% Confidence Interval (shaded Section)
+* Forcast 6 months into future
+    - perdiction widens to reflect loss of certainty in the market outlook
+
+# SUMMARY:
+##### Time Series Analysis of Historic Prices for the S&P500 Index
+* 10 year, daily prices
+##### Kernel PCA Dimension Reduction Technique within component stocks in S&P500 Index
+* keep mose useful components
+* simplify porfolio analysis (computational time, space, and complexity)
+##### Statistical Time Series Analysis to obtain Stationary Time Series
+* trends, seasonality, presece of unit root, combination
+* unit root can lead to a 'random walk/drift' within the Time Series
+##### Statistic Tests - Augmented Dicker Fulley (ADF)
+* conduct hypothesis test determine if expectations are met or violated
+ * p-value ≤ 0.05 = critical values >>> fail to reject null (stationary)
+ * adf-statistic = negative and goal is to be lower than critical values
 
 # LOOKING FORWARD:
 * Precision Model Comparison
