@@ -1,2 +1,0 @@
-Demo studentized residual
-Combine predictive and inferential lr notebooks in some way.
