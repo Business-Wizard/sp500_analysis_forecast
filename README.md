@@ -7,5 +7,11 @@ Where to put your money with COVID-19 on the loose. In this volatile year is the
 
 
 
-![sp500_annualReturn_histPlot](src/images/sp500_annualReturn_histPlot.png)     ![sp500_dailyReturns](src/images/sp500_dailyReturns.png)
-![SMA](src/images/SMA.png)                                                     ![volatilityPlot_annual](src/images/volatilityPlot_annual.png)
+     
+                                                     
+
+
+Solarized dark                                                              |  Solarized Ocean
+:--------------------------------------------------------------------------:|:---------------------------------------------------------:
+![sp500_annualReturn_histPlot](src/images/sp500_annualReturn_histPlot.png)  |  ![sp500_dailyReturns](src/images/sp500_dailyReturns.png)
+![volatilityPlot_annual](src/images/volatilityPlot_annual.png)              |  ![SMA](src/images/SMA.png)
