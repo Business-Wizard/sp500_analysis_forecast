@@ -35,11 +35,11 @@ class Insource:
         self.table_df.to_csv('data/tickers/S&P500-Info.csv')
 
         self.index_name = []
-        for n in range(len(self.table_df
+        for n in range(len(self.table_df)):
             lst = [0,4,5,6,13]
             if n in lst:
                 self.index_name.append(self.table_df.iloc[n][0])
-        self.index_names = 
+        self.index_names = []
         for i in self.index_name:
             self.lst = list(i)
             self.columns = self.lst
