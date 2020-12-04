@@ -35,7 +35,7 @@
 
 ![kernelPCA](src/images/kernelPCA.png)
  
-![kde_est_stand_residu_mean0](src/images/kde_est_stand_residu_mean0.png)
+
 
 ### Reconstruct Kernel-PCA vs SP500 Index (Price)
 ![kPCAvsSP](src/images/kPCAvsSP.png)  
@@ -57,50 +57,11 @@
      * .
 
 
-
-# ...
-### ...
-     * .
-     * .
-       
- 
- 
- 
- 
- 
-
-# ...
-### ...
-     * .
-     * .
 ![terminal](src/images/terminal.png) 
-
-# ...
-### ...
-     * .
-     * .
-
-![kernelPCA](src/images/kernelPCA.png)               |  
-
-
-
-
-
-
-
-
-
-
-
-# ...
-### ...
-     * .
-     * .
-     
-     MODELASSUMPTIONS
+![MODELASSUMPTIONS](src/images/MODELASSUMPTIONS.png)   
 ![prediction](src/images/prediction.png)   
 
 # ...
-### ...
-     * .
-     * .
+* Precision Model Comparison
+* Generate portfolio from components of SP500
+* Build Automated Trading Model to Trade based on Perdictions/Moving Averages
