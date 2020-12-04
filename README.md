@@ -1,9 +1,14 @@
-# predictingTheSP500
+# redictingTheSP500
 
-## Where to put your money with COVID-19 on the loose. In this volatile year is the stock market a safe bet? Predicting the next 6 months.
-### ...
-     * .
-     * .
+## In this volatile year is the stock market a safe bet?
+## Where to put your money with COVID-19 on the loose.  
+## Predicting the next 6 months.
+
+
+### I wanted to look at the historical prices of the SP500 Index and perform a Time Series Analysis to perdict the next 6 months of prices.
+##### Scrape/Import Historical Data
+* SP500 - 10 years - daily prices
+* SP500 component stocks for (Kernel-PCA)
 
 ![maxHist](src/images/SP500_MAX_HISTORY_TS.png)
 
@@ -28,8 +33,7 @@
 ### ...
      * .
      * .
-:---------------------------------------------------:|:-------------------------------------------------------------------------:
-![detrend](src/images/detrend.png)                   |  ![differenced_nonStationary](src/images/differenced_nonStationary.png)
+
 
 
 # ...
@@ -43,6 +47,12 @@
 ### ...
      * .
      * .
+     
+ kernelPCA
+ 
+ kPCAvsSP
+ 
+ 
 ![kde_est_stand_residu_mean0](src/images/kde_est_stand_residu_mean0.png) 
 
 # ...
@@ -58,10 +68,20 @@
 :---------------------------------------------------:|:-------------------------------------------------------------------------:
 ![kernelPCA](src/images/kernelPCA.png)               |  ![kernelPCA_eigenVectorValue](src/images/kernelPCA_eigenVectorValue.png)
 
+
+
+
+:---------------------------------------------------:|:-------------------------------------------------------------------------:
+![detrend](src/images/detrend.png)                   |  ![differenced_nonStationary](src/images/differenced_nonStationary.png)
+
+seasonalDecomp
+
 # ...
 ### ...
      * .
      * .
+     
+     MODELASSUMPTIONS
 ![prediction](src/images/prediction.png)   
 
 # ...
