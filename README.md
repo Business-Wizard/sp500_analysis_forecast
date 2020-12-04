@@ -51,17 +51,19 @@
 ![seasonalDecomp](src/images/seasonalDecomp.png)      
 
 
-# ...
-### ...
-     * .
-     * .
 
+# ARIMA & SARIMAX
+### Fit by Grid Search to find lowest AIC
+### Fit data to Model
 
 ![terminal](src/images/terminal.png) 
+
 ![MODELASSUMPTIONS](src/images/MODELASSUMPTIONS.png)   
+
+# PREDICTION:
 ![prediction](src/images/prediction.png)   
 
-# ...
+# LOOKING FORWARD:
 * Precision Model Comparison
 * Generate portfolio from components of SP500
 * Build Automated Trading Model to Trade based on Perdictions/Moving Averages
