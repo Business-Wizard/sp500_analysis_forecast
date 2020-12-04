@@ -1,11 +1,10 @@
-# redictingTheSP500
+# PredictingTheSP500
 
 ## In this volatile year is the stock market a safe bet?
-## Where to put your money with COVID-19 on the loose.  
-## Predicting the next 6 months.
+#### Where to put your money with COVID-19 on the loose.  
 
 
-### I wanted to look at the historical prices of the SP500 Index and perform a Time Series Analysis to perdict the next 6 months of prices.
+### Use Time Series Analysis of historical prices for the SP500 Index to perdict the next 6 months of prices.
 ##### Scrape/Import Historical Data
 * SP500 - 10 years - daily prices
 * SP500 component stocks for (Kernel-PCA)
@@ -13,7 +12,7 @@
 ![maxHist](src/images/SP500_MAX_HISTORY_TS.png)
 
 
-# ...
+# Initial EDA
 ### ...
      * .
      * .                                                                                       
@@ -27,7 +26,7 @@
      * .
      * .
 :------------------------------------------:|:------------------------------------------------:
-![candleStick](src/images/candleStick.png)  |  ![candleStick2](src/images/candleStick2.png)    
+:![candleStick](src/images/candleStick.png)  |  ![candleStick2](src/images/candleStick2.png)  :
 
 # ...
 ### ...
