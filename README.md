@@ -54,7 +54,9 @@
 
 # LOOKING FORWARD:
 1. Generate portfolio from components of SP500
-2. Build Automated Trading Model to Trade based on Perdictions/Moving Averages
+## 2. Build Automated Trading Model to Trade based on Perdictions/Moving Averages
+![ema](src/images/EMA.png)
+
 
 # (1) Kernel-PCA
 * Use z-score to normalize data
@@ -62,7 +64,7 @@
 * Generate Outputs:
     * EigenVectors - direction of principal component line 
     * EigenValues - amount of variance each component stock (eigenvector) of the S&P 500 Index generates onto the overall price fluctuations over time
-![kernelPCA](src/images/kernelPCA.png)
+![kernelPCA](src/images/pca.png)
 ![kernelPCA_principalComponent_varWT](src/images/kernelPCA_principalComponent_varWT.png)
 
 ### Reconstruct Kernel-PCA vs SP500 Index (Price)
