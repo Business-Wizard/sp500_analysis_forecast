@@ -147,7 +147,7 @@ class Model:
         fig = self.decompose_result.plot()
         # plt.show()
 
-       
+
         self.df_log_diff = self.df_residual.diff().dropna()
         # Mean and standard deviation of differenced data
         self.df_diff_rolling = self.df_log_diff.rolling(12)
@@ -245,18 +245,18 @@ if __name__ == '__main__':
     x = Model(stock)
 
     x.dataHull()
-    
+
     x.Kernel_pca()
-    
+
     x.adf()
     x.seasonal_decomp()
 
     lowest_aic, order, seasonal_order = x.arima_grid_search(12)
-    print('ARIMA{}x{}'.format(order, seasonal_order))
+    print(f'ARIMA{order}x{seasonal_order}')
     print('Lowest AIC: ' , lowest_aic)
 
     mod_res = x.fitModel_to_SARIMAX()
-    print(mod_res.summary()) 
+    print(mod_res.summary())
     mod_res.plot_diagnostics(figsize=(12, 8))
     plt.show()
 
